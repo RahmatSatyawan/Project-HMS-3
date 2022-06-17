@@ -1,5 +1,13 @@
 # Getting Started with Create React App
 
+Published Netlify FE :
+https://project-final-hm-3.netlify.app/
+Link Desain Figma: 
+https://www.figma.com/file/StJAVHA4gfsQH2UhzZ8COP/Design-for-HMS-3?node-id=23%3A2
+Note :
+https://docs.google.com/document/d/1iKhaFFuVLYTvxe5PlvJwNrN6zJjw56WFGFZmAWhUCeQ/edit?usp=sharing
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
