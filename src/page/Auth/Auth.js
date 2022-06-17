@@ -14,7 +14,7 @@ const Auth = () => {
           <Col className="login-register">
             <div className="row">
               <Button
-                className="col btn lg btn-primary active"
+                className="col btn lg btn-danger"
                 onClick={() => {
                   setShow("login");
                 }}
@@ -23,7 +23,7 @@ const Auth = () => {
               </Button>
 
               <Button
-                className="col btn lg btn-warning active"
+                className="col btn lg btn-info"
                 onClick={() => {
                   setShow("register");
                 }}

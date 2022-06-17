@@ -4,11 +4,11 @@ import "./styles.scss";
 
 const Login = () => {
   return (
-    <div className="login">
+    <div className="login bg-danger">
       <Form>
-        <h3>Sign In</h3>
+        <h3>Login to your account</h3>
         <div className="mb-3">
-          <label>Email address</label>
+          <label>Email or Username</label>
           <input
             type="email"
             className="form-control"
@@ -24,19 +24,14 @@ const Login = () => {
           />
         </div>
         <div className="mb-3">
-          <div className="custom-control custom-checkbox">
-            <input
-              type="checkbox"
-              className="custom-control-input"
-              id="customCheck1"
-            />
-            <label className="custom-control-label" htmlFor="customCheck1">
-              Remember me
-            </label>
+          <div className="text">
+            <p>
+              forgot your password, <a href="#"> click here</a>
+            </p>
           </div>
         </div>
         <div className="d-grid">
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" className="btn btn-info">
             Login
           </button>
         </div>

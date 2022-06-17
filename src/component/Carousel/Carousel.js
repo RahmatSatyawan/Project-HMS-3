@@ -1,4 +1,5 @@
 import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 
 import "./styles.scss";
@@ -6,45 +7,46 @@ import "./styles.scss";
 const CarouselCard = () => {
   return (
     <div>
-      <Carousel fade className="h-75">
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://pbs.twimg.com/media/EGHYvttU4AAYKb7?format=jpg&name=large"
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://pbs.twimg.com/media/EGHYvtjU0AAO8w1?format=jpg&name=large"
-            alt="Second slide"
-          />
-
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://pbs.twimg.com/media/EGHYvtkUcAAuc8T?format=jpg&name=large"
-            alt="Third slide"
-          />
-
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
+      <Container className="text-white text-center d-flex justify-content-center align-items-center">
+        <Row>
+          <Col md={6}>
+            <Carousel>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src="https://cf.shopee.co.id/file/827178bbe5ebcadf3b64da5927ed27c6"
+                  alt="First slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src="https://cf.shopee.co.id/file/827178bbe5ebcadf3b64da5927ed27c6"
+                  alt="Second slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src="https://cf.shopee.co.id/file/827178bbe5ebcadf3b64da5927ed27c6"
+                  alt="Third slide"
+                />
+              </Carousel.Item>
+            </Carousel>
+          </Col>
+          <Col md={6} className="d-flex align-items-center">
+            <div className="text-start text-black">
+              <h3>Sed ut perspiciatis unde omnis</h3>
+              <p>
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                voluptatem sequi nesciunt. Neque porro quisquam est, qui
+                dolorem.
+              </p>
+            </div>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 };

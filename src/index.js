@@ -6,6 +6,12 @@ import reportWebVitals from './reportWebVitals';
 
 // Importing the Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import Popper from '@popperjs/core';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
+/* The following line can be included in your src/index.js or App.js file */
+
+import './App.scss';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

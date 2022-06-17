@@ -1,15 +1,14 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import { Nav } from "./component/Nav/Nav";
-import CarouselCard from "./component/Carousel/Carousel";
+import HeaderNav from "./component/Nav/HeaderNav";
+import Footer from "./component/Footer/Footer";
 
 const App = () => {
   return (
     <>
-      <Nav />
-      <CarouselCard />
-      
+      <HeaderNav />
+      <Footer />
     </>
   );
 };
