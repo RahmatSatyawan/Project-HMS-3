@@ -4,32 +4,36 @@ import "./styles.scss";
 
 const Register = () => {
   return (
-    <div className="register">
+    <div className="register bg-info">
       <Form>
-        <h3>Register</h3>
+        <h3>Sign up for a new account</h3>
         <div className="row mb-3">
-          <label>Name</label>
           <input
             type="name"
             className="form-control mx-3 col"
-            placeholder="First Name"
+            placeholder="Name"
           />
           <input
-            type="name"
+            type="text"
             className="form-control mx-3 col"
-            placeholder="Last Name"
+            placeholder="Telp"
           />
         </div>
         <div className="mb-3">
-          <label>Email address</label>
+          <input
+            type="text"
+            className="form-control"
+            placeholder="Address"
+          />
+        </div>
+        <div className="mb-3">
           <input
             type="email"
             className="form-control"
-            placeholder="Enter email"
+            placeholder="Email"
           />
         </div>
         <div className="mb-3">
-          <label>Password</label>
           <input
             type="password"
             className="form-control"
@@ -37,7 +41,6 @@ const Register = () => {
           />
         </div>
         <div className="mb-3">
-          <label>Confirm Password</label>
           <input
             type="password"
             className="form-control"
@@ -45,7 +48,7 @@ const Register = () => {
           />
         </div>
         <div className="d-grid">
-          <button type="submit" className="btn btn-warning">
+          <button type="submit" className="btn btn-danger">
             Register
           </button>
         </div>
